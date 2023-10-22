@@ -1,0 +1,36 @@
+/*继承*/
+page{
+    font-size: 32rpx;
+    line-height: 1.5;
+}
+image {
+    display: block;/*盒子的性质*/
+    width: 100%;
+}
+.hero {height: 100vh;}
+.hero image {
+    height: 38.2vh;/*图片的宽高比，等比例缩放 不能变形*/
+
+}
+.hero.white { background: #fff;}/*css限定，同时具有hero和white 方便多人协作，修改别人代码*/
+.hero .content {
+    padding-top: 10%;
+}
+.hero .content.centered{
+    text-align: center;
+}
+.hero .header {
+    font-size: 72rpx;
+    font-weight: bold;
+    margin: 0 12% 16rpx;/*顺时针 上右下左 第四个省略则和第二个相同*/
+}
+.hero .sub-header {
+    font-size: 32rpx;
+    letter-spacing: 3px;
+    margin-bottom: 16rpx;
+    color: rgba(0,0,0,0.85);/*0.85为透明度*/
+}
+.herp .discription {
+    padding: 0 12%;
+    margin-bottom: 64rpx;
+}
