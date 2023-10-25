@@ -20,3 +20,8 @@
 [markdown语法](https://blog.csdn.net/lishuoboy/article/details/104421044)
 
 ![](+图片链接)
+
+
+git add .
+git commit -m '小程序首页'
+git push origin main
